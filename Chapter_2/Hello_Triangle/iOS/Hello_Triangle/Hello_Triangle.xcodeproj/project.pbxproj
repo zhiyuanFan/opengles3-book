@@ -30,6 +30,7 @@
 		7626528017F10EE6007CCD43 /* esTransform.c in Sources */ = {isa = PBXBuildFile; fileRef = 7626527717F10EE6007CCD43 /* esTransform.c */; };
 		7626528117F10EE6007CCD43 /* esUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = 7626527817F10EE6007CCD43 /* esUtil.c */; };
 		7626528617F10FAD007CCD43 /* Hello_Triangle.c in Sources */ = {isa = PBXBuildFile; fileRef = 7626528517F10FAD007CCD43 /* Hello_Triangle.c */; };
+		DAFC95461DF5AAC700E379C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAFC95441DF5AAC700E379C4 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		7626527817F10EE6007CCD43 /* esUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = esUtil.c; path = ../../../../../Common/Source/esUtil.c; sourceTree = "<group>"; };
 		7626528517F10FAD007CCD43 /* Hello_Triangle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Hello_Triangle.c; path = ../../../Hello_Triangle.c; sourceTree = "<group>"; };
 		7626528717F110A5007CCD43 /* esUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = esUtil.h; path = ../../../../../Common/Include/esUtil.h; sourceTree = "<group>"; };
+		DAFC95451DF5AAC700E379C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 		7626523F17F10E6C007CCD43 /* Hello_Triangle */ = {
 			isa = PBXGroup;
 			children = (
+				DAFC95441DF5AAC700E379C4 /* LaunchScreen.storyboard */,
 				7626528517F10FAD007CCD43 /* Hello_Triangle.c */,
 				7626528717F110A5007CCD43 /* esUtil.h */,
 				7626527517F10EE6007CCD43 /* esShader.c */,
@@ -273,6 +276,7 @@
 				7626525017F10E6C007CCD43 /* Main_iPad.storyboard in Resources */,
 				7626524D17F10E6C007CCD43 /* Main_iPhone.storyboard in Resources */,
 				7626525917F10E6C007CCD43 /* Images.xcassets in Resources */,
+				DAFC95461DF5AAC700E379C4 /* LaunchScreen.storyboard in Resources */,
 				7626524417F10E6C007CCD43 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,6 +357,14 @@
 				7626526917F10E6C007CCD43 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DAFC95441DF5AAC700E379C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAFC95451DF5AAC700E379C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -436,7 +448,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hello_Triangle/Hello_Triangle-Prefix.pch";
 				INFOPLIST_FILE = "Hello_Triangle/Hello_Triangle-Info.plist";
@@ -450,7 +461,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hello_Triangle/Hello_Triangle-Prefix.pch";
 				INFOPLIST_FILE = "Hello_Triangle/Hello_Triangle-Info.plist";
