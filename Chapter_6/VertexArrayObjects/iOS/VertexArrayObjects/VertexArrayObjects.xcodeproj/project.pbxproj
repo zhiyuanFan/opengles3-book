@@ -30,6 +30,7 @@
 		76DAB21817F11CDD0056026D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DAB21017F11CDD0056026D /* main.m */; };
 		76DAB21917F11CDD0056026D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DAB21217F11CDD0056026D /* ViewController.m */; };
 		76DAB22B17F11D090056026D /* VertexArrayObjects.c in Sources */ = {isa = PBXBuildFile; fileRef = 76DAB22A17F11D090056026D /* VertexArrayObjects.c */; };
+		DAF099271E0C01C4005BFC14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF099261E0C01C4005BFC14 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		76DAB21217F11CDD0056026D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		76DAB22917F11CFF0056026D /* esUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = esUtil.h; path = ../../../../../Common/Include/esUtil.h; sourceTree = "<group>"; };
 		76DAB22A17F11D090056026D /* VertexArrayObjects.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = VertexArrayObjects.c; path = ../../../VertexArrayObjects.c; sourceTree = "<group>"; };
+		DAF099261E0C01C4005BFC14 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 		76DAB20D17F11CDD0056026D /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				DAF099261E0C01C4005BFC14 /* LaunchScreen.storyboard */,
 				762F29A717F329BA003C92E4 /* FileWrapper.h */,
 				762F29A817F329BA003C92E4 /* FileWrapper.m */,
 				76DAB20E17F11CDD0056026D /* AppDelegate.h */,
@@ -273,6 +276,7 @@
 				76DAB1D517F11C9B0056026D /* Main_iPad.storyboard in Resources */,
 				76DAB1D217F11C9B0056026D /* Main_iPhone.storyboard in Resources */,
 				76DAB1DE17F11C9B0056026D /* Images.xcassets in Resources */,
+				DAF099271E0C01C4005BFC14 /* LaunchScreen.storyboard in Resources */,
 				76DAB1C917F11C9B0056026D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,7 +440,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VertexArrayObjects/VertexArrayObjects-Prefix.pch";
 				INFOPLIST_FILE = "VertexArrayObjects/VertexArrayObjects-Info.plist";
@@ -450,7 +453,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VertexArrayObjects/VertexArrayObjects-Prefix.pch";
 				INFOPLIST_FILE = "VertexArrayObjects/VertexArrayObjects-Info.plist";

@@ -149,6 +149,7 @@ void DrawPrimitiveWithVBOs ( ESContext *esContext,
                              GLushort *indices )
 {
    UserData *userData = esContext->userData;
+    
    GLuint   offset = 0;
 
    // vboIds[0] - used to store vertex attribute data
